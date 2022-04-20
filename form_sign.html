@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2319/2319663.png" type="image/x-icon">
+    <!-- upando icones pra usar  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <!-- conectando ao css  -->
+    <link rel="stylesheet" href="form_sign.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="form-container">
+    <form>
+        <h3>SIGN IN</h3>
+        <div class="input-container">
+            <!-- inserir dados -->
+            <input type="text" placeholder="Username">
+            <!-- imagem user  -->
+            <i data-feather="user"></i>
+        </div>
+
+        <div class="input-container">
+            <!-- inserir dados tipo senha -->
+            <input type="password" placeholder="Password">
+            <!-- imagem senha  -->
+            <i data-feather="lock"></i>
+        </div>
+
+        <div class="options-container">
+            <div class="checkbox-container">
+                <!-- criar uma checkbox  -->
+                <input type="checkbox" name="remember" id="remember">
+                <!-- texto dentro  -->
+                <label for="remember">Remember Me</label>
+            </div><!--criar link--><a href="https://www.hajapaciencia.com.br/paciencia-spider/">Reset Password</a>
+        </div>
+        <!-- criar botao -->
+        <input type="submit" value="Sign In">
+        <p>or sign in with</p>
+        <div class="social-media-conta"> 
+            <!-- criar icones  -->
+            <div class = "icon-conta">
+                <i data-feather="facebook"></i>
+            </div>
+            <div class = "icon-conta">
+                <i data-feather="mail"></i>
+            </div>
+            <div class = "icon-conta">
+                <i data-feather="twitter"></i>
+            </div>
+        </div>
+        <!-- criar linha  -->
+        <hr>
+        <!-- criar rodapé -->
+        <p class="footer"> do not have an account <a href="google.com">Sign up now</a> </p>
+    </form>
+    </div>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
